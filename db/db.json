@@ -1,0 +1,113 @@
+{
+    "Dashboard": {
+        "historico_transcoes_semanais": [
+            {
+                "id" : "1",
+                "dia": "Segunda-Feira",
+                "valor": "-540,32",
+                "status": "negativo"
+            },
+            {
+                "id" : "2",
+                "dia": "Quinta-Feira",
+                "valor": "873,90",
+                "status": "positivo"
+            },
+            {
+                "id" : "3",
+                "dia": "Sexta-Feira",
+                "valor": "-18.730,90",
+                "status": "negativo"
+            }
+        ],
+        "historico_transcoes_anuais": [
+            {
+                "mes": "janeiro",
+                "valor": "-54.000,32",
+                "status": "negativo"
+            },
+            {
+                "mes": "junho",
+                "valor": "740.000,32",
+                "status": "positivo"
+            },
+            {
+                "mes": "novembro",
+                "valor": "100.000,000",
+                "status": "positivo"
+            }
+        ]
+    },
+    "Perfil_Usuario": {
+        "id" : "15",
+        "nome": "Alan",
+        "sobre_Nome": "Lima",
+        "image_perfil": "https://placehold.co/35x35"
+    },
+
+    "Paineis_Vendas" : {
+        "Paineis" : [
+            {
+                "id" : "1",
+                "titulo" : "Total de vendas",
+                "valor" : "10.265,21",
+                "porcentagemVenda" : "+11",
+                "iconPorcen" : "fa-solid fa-arrow-trend-up",
+                "status" : "positivo"
+            },
+            {
+                "id" : "2",
+                "titulo" : "Total líquido",
+                "valor" : "5.412,00",
+                "porcentagemVenda" : "+15",
+                "iconPorcen" : "fa-solid fa-arrow-trend-up",
+                "status" : "positivo"
+            },
+            {
+                "id" : "3",
+                "titulo" : "Compras canceladas",
+                "valor" : "456.77,00",
+                "porcentagemVenda" : "-80",
+                "iconPorcen" : "fa-solid fa-arrow-trend-down",
+                "status" : "negativo"
+            },
+            {
+                "id" : "4",
+                "titulo" : "Reembolsos",
+                "valor" : "3.462,22",
+                "porcentagemVenda" : "-78",
+                "iconPorcen" : "fa-solid fa-arrow-trend-down",
+                "status" : "negativo"
+            }
+        ]
+    },
+
+    "ToList_Compradores": {
+        "compradores" : [
+            {
+                "id" : "47460",
+                "nome" : "Roberto Santos",
+                "data" : "02/08/2023",
+                "localizacao" : "Rio Grande do Sul",
+                "valor" : "15,00",
+                "situacao" : "Aprovado"
+            },
+            {
+                "id" : "67890",
+                "nome" : "Beatriz Rodrigues",
+                "data" : "03/08/2023",
+                "localizacao" : "Salvador",
+                "valor" : "25,00",
+                "situacao" : "Analise"
+            },
+            {
+                "id" : "48960",
+                "nome" : "Erich Gamma",
+                "data" : "02/08/2023",
+                "localizacao" : "Maceió",
+                "valor" : "15,00",
+                "situacao" : "Reprovado"
+            }
+        ]
+    }
+}
